@@ -193,7 +193,12 @@ namespace WinFormsApp4
         {
 
             int i = Convert.ToInt32(textBox1.Text);
-           textBox2.Text = Convert.ToString(i, 2);
+            textBox2.Text = Convert.ToString(i, 2);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

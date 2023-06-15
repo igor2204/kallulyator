@@ -445,26 +445,26 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(212, 97);
+            textBox1.Location = new Point(212, 95);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(299, 23);
             textBox1.TabIndex = 24;
-            textBox1.TextAlign = HorizontalAlignment.Right;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(212, 37);
+            textBox2.Location = new Point(212, 36);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(299, 23);
             textBox2.TabIndex = 25;
+            textBox2.TextAlign = HorizontalAlignment.Center;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(441, 100);
+            label1.Location = new Point(366, 39);
             label1.Name = "label1";
             label1.Size = new Size(0, 15);
             label1.TabIndex = 27;
@@ -513,6 +513,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Калькулятор";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
